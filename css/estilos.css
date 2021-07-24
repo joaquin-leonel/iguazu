@@ -330,6 +330,7 @@
 		}
 
 		h1{
+			padding-top:2rem;
 			font-size:3rem;
 		}
 
@@ -412,7 +413,9 @@
 		}
 
 		iframe{
-
+			padding:0.2rem;
+			margin-top:1rem;
+			margin-bottom:1rem;
 			width:100%;
 			height:auto;
 		}
