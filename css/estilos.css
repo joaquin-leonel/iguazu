@@ -320,7 +320,7 @@
 		}
 
 		.bgImgiguazu{
-
+			background-attachment: fixed;
 			height:60vh;
 			background-image:url(../img/cataratas-iguazu.png);
 		}
@@ -453,7 +453,7 @@
 		}
 
 		.bgImgiguazu{
-
+			background-attachment: fixed;
 			height:70vh;
 			background-image:url(../img/cataratas-iguazu.png);
 		}
