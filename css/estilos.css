@@ -248,6 +248,7 @@
 		.bgImgiguazu{
 
 			height:70vh;
+			background-attachment: fixed;
 			background-image:url(../img/cataratas-iguazu.png);
 		}
 
