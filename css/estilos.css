@@ -221,6 +221,30 @@
 		border:1px double #415d2e;
 
 	}
+/* barra de scroll============================================== */
+
+::-webkit-scrollbar {
+	width:.5rem;
+  }
+  
+  /* Tracker */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 1 0 3px #415d2e; 
+	background: #87c7cd; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #415d2e; 
+  }
+  
+  /* Handle hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #73a552; 
+  }
+
+
+
 
 	/*============================================*/
 
