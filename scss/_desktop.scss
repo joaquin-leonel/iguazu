@@ -178,11 +178,17 @@ label {
   opacity: 0.5;
   border: 1px double $ColorVerdeClaro;
   transition: all 1s ease-in;
+
+  &:hover {
+    opacity: 1;
+    border: 1px double $ColorVerdeClaro;
+  }
 }
-.imgGaleria:hover {
-  opacity: 1;
-  border: 1px double $ColorVerdeClaro;
-}
+// .imgGaleria:hover {
+//   opacity: 1;
+//   border: 1px double $ColorVerdeClaro;
+// }
+
 /* barra de scroll============================================== */
 
 ::-webkit-scrollbar {
@@ -247,11 +253,15 @@ label {
     height: auto;
     margin-left: 0.1rem;
     transition: all 1s ease-out;
+
+    &:hover {
+      filter: invert(30%);
+    }
   }
 
-  .socialLogo:hover {
-    filter: invert(30%);
-  }
+  //   .socialLogo:hover {
+  //     filter: invert(30%);
+  //   }
 
   .lugares {
     font-size: 1.2rem;
@@ -265,10 +275,14 @@ label {
 
   .itemMenu {
     transition: border-radius 2s, background 0.5s ease-out;
+    &:hover {
+      border-radius: 1rem;
+      background: $ColorMarron;
+    }
   }
 
-  .itemMenu:hover {
-    border-radius: 1rem;
-    background: $ColorMarron;
-  }
+  //   .itemMenu:hover {
+  //     border-radius: 1rem;
+  //     background: $ColorMarron;
+  //   }
 }

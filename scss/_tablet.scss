@@ -57,12 +57,16 @@
 
   .nav-item {
     transition: border-radius 2s, background 0.5s ease-out;
+    &:hover {
+      border-radius: 1rem;
+      background: $ColorMarron;
+    }
   }
 
-  .nav-item:hover {
-    border-radius: 1rem;
-    background: $ColorMarron;
-  }
+  //   .nav-item:hover {
+  //     border-radius: 1rem;
+  //     background: $ColorMarron;
+  //   }
 
   .carouselSize {
     @include size(50%, auto);
