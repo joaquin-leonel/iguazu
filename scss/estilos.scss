@@ -15,9 +15,9 @@ $ColorMarron: #a05824;
   height: $height;
 }
 
-@import "mobile";
-@import "tablet";
 @import "desktop";
+@import "tablet";
+@import "mobile";
 
 // Reset
 * {
