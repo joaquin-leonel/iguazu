@@ -1,81 +1,78 @@
 /* breakpoint tablet -------------------------------------------------------*/
 @media only screen and (min-width: 768px) {
+  .logoIguazu {
+    @include size(20rem, auto);
+    // width:20rem;
+    // height: auto;
+  }
 
+  .logoIguazu {
+    @include size(15rem, auto);
+    // width:15rem;
+  }
+  .navbarColor {
+    background: $ColorVerdeClaro;
+  }
 
-    .logoIguazu{
-        width:20rem;
-        height: auto;
-    }
+  .bgImgiguazu {
+    background-attachment: fixed;
+    height: 70vh;
+    background-image: url(../img/cataratas-iguazu.png);
+  }
 
-    .logoIguazu{
-        width:15rem;
-        
-    }
-    .navbarColor{
-        background:$ColorVerdeClaro;
-    }
+  .textoHeader {
+    color: $ColorBlanco;
+  }
 
-    .bgImgiguazu{
-        background-attachment: fixed;
-        height:70vh;
-        background-image:url(../img/cataratas-iguazu.png);
-    }
+  .claseFooter {
+    background: $ColorVerdeClaro;
+  }
 
-    .textoHeader{
-        color:white;
-    }
+  .socialLogo {
+    @include size(3rem, auto);
+    // width:3rem;
+    // height:auto;
+    margin-left: 0.1rem;
+  }
 
-    .claseFooter{
-        background: $ColorVerdeClaro;	
-    }
+  .infoIguazu {
+    text-align: center;
+  }
 
-    .socialLogo{
-        width:3rem;
-        height:auto;
-        margin-left:0.1rem;
+  .caroucelCentrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    }
+  .lugares {
+    font-size: 1.2rem;
+  }
 
-    .infoIguazu{
-        text-align: center;
-    }
+  .badgeColor {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    background: $ColorVerdeClaro;
+  }
 
-    .caroucelCentrado {
-        display: flex;  
-        align-items: center;  
-        justify-content: center; 
+  .nav-item {
+    transition: border-radius 2s, background 0.5s ease-out;
+  }
 
-    }
+  .nav-item:hover {
+    border-radius: 1rem;
+    background: $ColorMarron;
+  }
 
-    .lugares{
-        font-size:1.2rem;
-    }
+  .carouselSize {
+    @include size(50%, auto);
+    // width: 50%;
+    // height: auto;
+    margin: 1rem;
+  }
 
-    .badgeColor{
-        margin-left:0.5rem;
-        font-size:1rem;
-        background:$ColorVerdeClaro;
-    }
-
-    .nav-item{
-        transition: border-radius 2s, background 0.5s ease-out;
-
-    }
-
-    .nav-item:hover{
-        border-radius: 1rem;
-        background:$ColorMarron;
-    }
-
-    .carouselSize {
-        width: 50%;
-        height: auto;
-        margin:1rem;
-    }
-
-
-    .inputDeForm {
-        width:50%;
-    }
-
+  .inputDeForm {
+    @include size(50%, auto);
+    // width:50%;
+  }
 }

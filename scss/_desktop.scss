@@ -1,298 +1,274 @@
-h1{
-    color:$ColorBlanco;
-    font-size: 4rem;
-    font-family: 'Acme', sans-serif;
-    padding-top: 8rem;
-    margin-left:1rem;
-}
+// desktop=====================================
 
+h1 {
+  color: $ColorBlanco;
+  font-size: 4rem;
+  font-family: "Acme", sans-serif;
+  padding-top: 8rem;
+  margin-left: 1rem;
+}
 
 .tituloMejores {
-    margin-top:1rem;
-    padding-left: 1rem;
-    padding-top:0.3rem;
-    padding-bottom:0.3rem;
-    font-size: 1.5rem;
-    background: $ColorVerdeClaro;
-    color: $ColorBlanco;
-    width: auto;
-    border-radius: 3rem;
+  @include size(auto, auto);
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 1.5rem;
+  background: $ColorVerdeClaro;
+  color: $ColorBlanco;
+  // width: auto;
+  border-radius: 3rem;
 }
 
-
-.sectionTitulo{
-    Color:$ColorMarron;
-    font-size:3rem;
+.sectionTitulo {
+  color: $ColorMarron;
+  font-size: 3rem;
 }
 
-.tituloNoticias{
-    margin-top:1rem;
-    padding-left: 1rem;
-    padding-top:0.3rem;
-    padding-bottom:0.3rem;
-    font-size: 1.5rem;
-    background: $ColorMarron;
-    color: $ColorBlanco;
-    width: auto;
-    border-radius: 3rem;	
+.tituloNoticias {
+  @include size(auto, auto);
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 1.5rem;
+  background: $ColorMarron;
+  color: $ColorBlanco;
+  // width: auto;
+  border-radius: 3rem;
 }
 
-
-.ArtHoteleria{
-    margin-top:2rem;
-    margin-bottom:2rem;
+.ArtHoteleria {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .hotelTitulos {
-    color: $ColorVerdeClaro;
-    font-family: 'Acme', sans-serif;
-    font-size: 2em;
-    margin-top: 1em;
-    text-align: center;
+  color: $ColorVerdeClaro;
+  font-family: "Acme", sans-serif;
+  font-size: 2em;
+  margin-top: 1em;
+  text-align: center;
 }
 
 .mejoresHoteles {
-    color: $ColorMarron;
-    font-family: 'Acme', sans-serif;
-    font-size: 1.5em;
-    margin: 1em;
-    padding-bottom:4rem;
-
+  color: $ColorMarron;
+  font-family: "Acme", sans-serif;
+  font-size: 1.5em;
+  margin: 1em;
+  padding-bottom: 4rem;
 }
 
-.badgeHoteles{
-    font-family: 'Poppins', sans-serif;
-    background:$ColorMarron;
+.badgeHoteles {
+  font-family: "Poppins", sans-serif;
+  background: $ColorMarron;
 }
 
-.fas{
-    color:$ColorVerdeClaro;
+.fas {
+  color: $ColorVerdeClaro;
 }
-
 
 .tituloArticulo {
-    color: $ColorVerdeClaro;
-    font-family: 'Acme', sans-serif;
-    font-size: 2em;
-    margin-top: 2em;
-    text-align: center;
+  color: $ColorVerdeClaro;
+  font-family: "Acme", sans-serif;
+  font-size: 2em;
+  margin-top: 2em;
+  text-align: center;
 }
 
 .pIguazu {
-    background-color: $ColorCeleste;
-    border-radius: 1rem;
-    color: #000000;
-    width: 100%;
-    height: auto;
-    background-position: right;
-    background-repeat: no-repeat;
-    padding: 2rem;
-    font-size: 1em;
-    background-image: url(../img/logo-cataratas-br.png);
-    background-size: 100%;
-    margin-bottom:3rem;
-    box-shadow: 0.3rem 0.6rem rgba(65, 93, 46,0.7);
-
+  @include size(100%, auto);
+  background-color: $ColorCeleste;
+  border-radius: 1rem;
+  color: #000000;
+  // width: 100%;
+  // height: auto;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  font-size: 1em;
+  background-image: url(../img/logo-cataratas-br.png);
+  background-size: 100%;
+  margin-bottom: 3rem;
+  box-shadow: 0.3rem 0.6rem rgba(65, 93, 46, 0.7);
 }
 
-iframe{
-    width:100%;
-    height: 40rem;
-    padding:4rem;
+iframe {
+  @include size(100%, 40rem);
+  // width:100%;
+  // height: 40rem;
+  padding: 4rem;
 }
 
-
-
-.contactoTitulo{
-    margin-left:1rem;
+.contactoTitulo {
+  margin-left: 1rem;
 }
 
-.inputDeForm{
-    margin-top:0.3%;
-    width:50%;
-    box-shadow: 2px 2px rgba(0,0,0,0.3);
+.inputDeForm {
+  @include size(100%, auto);
+  margin-top: 0.3%;
+  // width:50%;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-
-
-.btnEnviar{
-    border-color:$ColorMarron;
-    color:$ColorBlanco;
-    background:$ColorMarron;
+.btnEnviar {
+  border-color: $ColorMarron;
+  color: $ColorBlanco;
+  background: $ColorMarron;
 }
 
-.btnEnviar:hover{
-    border-color:$ColorMarron;
-    background:$ColorVerdeClaro;
+.btnEnviar:hover {
+  border-color: $ColorMarron;
+  background: $ColorVerdeClaro;
 }
 
-textarea{
-    width:3%;
+textarea {
+  @include size(3%, auto);
+  // width:3%;
 }
-
 
 .inputDeForm:focus {
-    border-color:$ColorVerdeClaro;
-    box-shadow: inset 0 1px 1px rgba(0, 93, 0, 0.8), 0 0 8px rgba(65, 93, 46, 0.8);
+  border-color: $ColorVerdeClaro;
+  box-shadow: inset 0 1px 1px rgba(0, 93, 0, 0.8), 0 0 8px rgba(65, 93, 46, 0.8);
 }
 
-
-.inputDeForm{
-    margin-top:0.3%;
-    width:50%;
-    box-shadow: 2px 2px rgba(0,0,0,0.3);
+.inputDeForm {
+  @include size(50%, auto);
+  margin-top: 0.3%;
+  // width:50%;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-.formLabel{
-
-    font-size:1.2rem;
-    font-family: 'Acme', sans-serif;
+.formLabel {
+  font-size: 1.2rem;
+  font-family: "Acme", sans-serif;
 }
 
-label{
-    color:$ColorMarron;
-    font-family: 'Acme', sans-serif;
+label {
+  color: $ColorMarron;
+  font-family: "Acme", sans-serif;
 }
 
-textarea{
-    width:3%;
+// textarea{
+//     width:3%;
+// }
+
+.carouselSize {
+  @include size(50%, auto);
+  // width:50%;
+  // height:auto;
 }
-
-
-.carouselSize{
-    width:50%;
-    height:auto;
-}
-
-
 
 /*galeria============================================*/
 
-.galeriaFotos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top:4rem;
+.galeriaFotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 4rem;
 }
 
-.imgGaleria{
-    width:80%;
-    height: auto;
-    margin-top:0.2rem;
-    opacity:.5;
-    border:1px double $ColorVerdeClaro;
-    transition: all 1s ease-in;
-
+.imgGaleria {
+  @include size(80%, auto);
+  // width:80%;
+  // height: auto;
+  margin-top: 0.2rem;
+  opacity: 0.5;
+  border: 1px double $ColorVerdeClaro;
+  transition: all 1s ease-in;
 }
-.imgGaleria:hover{
-    opacity:1;
-    border:1px double $ColorVerdeClaro;
-
+.imgGaleria:hover {
+  opacity: 1;
+  border: 1px double $ColorVerdeClaro;
 }
 /* barra de scroll============================================== */
 
 ::-webkit-scrollbar {
-width:.5rem;
+  width: 0.5rem;
 }
 
 /* Tracker */
 ::-webkit-scrollbar-track {
-box-shadow: inset 1 0 3px $ColorVerdeClaro; 
-background: #87c7cd; 
+  box-shadow: inset 1 0 3px $ColorVerdeClaro;
+  background: #87c7cd;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-background: $ColorVerdeClaro; 
+  background: $ColorVerdeClaro;
 }
 
 /* Handle hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:$ColorVerdeOscuro;
-// background: #73a552; 
+  background: $ColorVerdeOscuro;
+  // background: #73a552;
 }
 
-
-
-
-/*============================================*/
-
-
-/*desktop*/
-
 @media only screen and (min-width: 1024px) {
+  .elementosMenu {
+    margin-left: 3rem;
+  }
 
-    .elementosMenu{
-        margin-left:3rem;
+  .logoIguazu {
+    @include size(10rem, auto);
+    // width:10rem;
+    // height: auto;
+  }
 
-    }
+  .navbarColor {
+    background: $ColorVerdeClaro;
+  }
 
+  .bgImgiguazu {
+    height: 70vh;
+    background-attachment: fixed;
+    background-image: url(../img/cataratas-iguazu.png);
+  }
 
-    .logoIguazu{
-        width:10rem;
-        height: auto;
-    }
+  .textoHeader {
+    color: $ColorBlanco;
+  }
 
-    .navbarColor{
-        background:$ColorVerdeClaro;
-    }
+  .caroucelCentrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .claseFooter {
+    background: $ColorVerdeClaro;
+  }
 
-    .bgImgiguazu{
+  .socialLogo {
+    @include size(3rem, auto);
+    // width:3rem;
+    height: auto;
+    margin-left: 0.1rem;
+    transition: all 1s ease-out;
+  }
 
-        height:70vh;
-        background-attachment: fixed;
-        background-image:url(../img/cataratas-iguazu.png);
-    }
+  .socialLogo:hover {
+    filter: invert(30%);
+  }
 
-    .textoHeader{
-        color:$ColorBlanco;
-    }
+  .lugares {
+    font-size: 1.2rem;
+  }
 
-    .caroucelCentrado{
-        display: flex;  
-        align-items: center;  
-        justify-content: center; 
-    }
+  .badgeColor {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    background: $ColorVerdeClaro;
+  }
 
-    .claseFooter{
-        background: $ColorVerdeClaro;	
-    }
+  .itemMenu {
+    transition: border-radius 2s, background 0.5s ease-out;
+  }
 
-    .socialLogo{
-        width:3rem;
-        height:auto;
-        margin-left:0.1rem;
-        transition: all 1s ease-out;
-    }
-
-    .socialLogo:hover {
-        filter: invert(30%);
-    }
-
-
-    .lugares{
-        font-size:1.2rem;
-    }
-
-    .badgeColor{
-        margin-left:0.5rem;
-        font-size:1rem;
-        background:$ColorVerdeClaro;
-    }
-
-
-    .itemMenu{
-        transition: border-radius 2s, background 0.5s ease-out;
-        
-    }
-
-    .itemMenu:hover{
-        border-radius: 1rem;
-        background:$ColorMarron;
-    }
-
-
-
+  .itemMenu:hover {
+    border-radius: 1rem;
+    background: $ColorMarron;
+  }
 }

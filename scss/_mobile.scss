@@ -1,128 +1,118 @@
 /*mobile ============================================*/
 
 @media only screen and (max-width: 768px) {
+  .logoIguazu {
+    @include size(10rem, auto);
+    // width:10rem;
+    // height: auto;
+  }
 
+  .navbarColor {
+    background: $ColorVerdeClaro;
+  }
 
+  .bgImgiguazu {
+    background-attachment: fixed;
+    height: 60vh;
+    background-image: url(../img/cataratas-iguazu.png);
+  }
 
-    .logoIguazu{
-        width:10rem;
-        height: auto;
-    }
+  .textoHeader {
+    font-size: 0.8rem;
+    color: $ColorBlanco;
+  }
 
-    .navbarColor{
-        background:$ColorVerdeClaro;
-    }
+  h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+  }
 
-    .bgImgiguazu{
-        background-attachment: fixed;
-        height:60vh;
-        background-image:url(../img/cataratas-iguazu.png);
-    }
+  .claseFooter {
+    background: $ColorVerdeClaro;
+  }
 
-    .textoHeader{
-        font-size:0.8rem;
-        color:$ColorBlanco;
-    }
+  .socialLogo {
+    @include size(3rem, auto);
+    // width:3rem;
+    // height:auto;
+    margin-left: 0.1rem;
+  }
 
-    h1{
-        padding-top:2rem;
-        font-size:3rem;
-    }
+  .infoIguazu {
+    margin-top: 2rem;
+  }
 
-    .claseFooter{
-        background: $ColorVerdeClaro;	
-    }
+  h3 {
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+  }
 
-    .socialLogo{
-        width:3rem;
-        height:auto;
-        margin-left:0.1rem;
+  h2 {
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+  }
 
-    }
+  .badgeColor {
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    background: $ColorVerdeClaro;
+  }
 
-    .infoIguazu{
-        margin-top:2rem;
+  .infoIguazu {
+    padding-top: 1rem;
+    text-align: center;
+  }
 
-    }
+  .carouselSize {
+    @include size(100%, auto);
+    // width: 100%;
+    // height: auto;
+    margin-bottom: 1rem;
+  }
 
+  .tituloMejores {
+    padding-left: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+  }
 
-    h3{
-        font-weight:normal;
-        font-family: 'Poppins', sans-serif;
-        font-size:1rem;
-        
-    }
+  .mejoresHoteles {
+    font-size: 1em;
+  }
 
-    h2{
-        font-weight:normal;
-        font-family: 'Poppins', sans-serif;
-        font-size:1.5rem;
-    }
+  .sectionTitulo {
+    font-size: 2.2rem;
+  }
 
+  .tituloNoticias {
+    font-size: 1.2em;
+  }
 
+  .pIguazu {
+    font-size: 1em;
+  }
 
-    .badgeColor{
-        margin-left:0.5rem;
-        font-size:0.6rem;
-        background:$ColorVerdeClaro;
-    }
+  .imgGaleria {
+    opacity: 1;
+  }
 
-    .infoIguazu{
-        padding-top:1rem;
-        text-align: center;
-    }
+  iframe {
+    @include size(100%, auto);
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    // width:100%;
+    // height:auto;
+  }
 
+  .inputDeForm {
+    @include size(90%, auto);
+    // width:90%;
+  }
 
-    .carouselSize {
-        width: 100%;
-        height: auto;
-        margin-bottom:1rem;
-    }
-
-
-    .tituloMejores {
-        padding-left:0.5rem;
-        text-align: center;
-        font-size: 1rem;
-
-    }
-
-    .mejoresHoteles {
-        font-size: 1em;
-    }
-
-    .sectionTitulo{
-        font-size: 2.2rem;
-    }
-
-    .tituloNoticias{
-        font-size: 1.2em;
-    }
-
-    .pIguazu{
-        font-size: 1em;
-    }
-
-    .imgGaleria{
-        opacity:1;
-    }
-
-    iframe{
-        padding:0.2rem;
-        margin-top:1rem;
-        margin-bottom:1rem;
-        width:100%;
-        height:auto;
-    }
-
-    .inputDeForm {
-        width:90%;
-    }
-
-
-    .galeriaFotos {
-        padding:1rem;
-    }
-
-
+  .galeriaFotos {
+    padding: 1rem;
+  }
 }

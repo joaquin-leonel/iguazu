@@ -1,5 +1,3 @@
-/*	Paleta
-#f9f7f0 , #415d2e , #d7f1ec , #87c7cd , #2d4221 , #a05824*/
 /*Familias tipograficas*/
 /*font-family: 'Acme', sans-serif;*/
 /*font-family: 'Poppins', sans-serif;*/
@@ -39,12 +37,12 @@
   }
   h3 {
     font-weight: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
   }
   h2 {
     font-weight: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
   }
   .badgeColor {
@@ -82,14 +80,15 @@
     opacity: 1;
   }
   iframe {
+    width: 100%;
+    height: auto;
     padding: 0.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 100%;
-    height: auto;
   }
   .inputDeForm {
     width: 90%;
+    height: auto;
   }
   .galeriaFotos {
     padding: 1rem;
@@ -104,6 +103,7 @@
   }
   .logoIguazu {
     width: 15rem;
+    height: auto;
   }
   .navbarColor {
     background: #415d2e;
@@ -114,7 +114,7 @@
     background-image: url(../img/cataratas-iguazu.png);
   }
   .textoHeader {
-    color: white;
+    color: #f9f7f0;
   }
   .claseFooter {
     background: #415d2e;
@@ -161,18 +161,21 @@
   }
   .inputDeForm {
     width: 50%;
+    height: auto;
   }
 }
 
 h1 {
   color: #f9f7f0;
   font-size: 4rem;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   padding-top: 8rem;
   margin-left: 1rem;
 }
 
 .tituloMejores {
+  width: auto;
+  height: auto;
   margin-top: 1rem;
   padding-left: 1rem;
   padding-top: 0.3rem;
@@ -180,16 +183,17 @@ h1 {
   font-size: 1.5rem;
   background: #415d2e;
   color: #f9f7f0;
-  width: auto;
   border-radius: 3rem;
 }
 
 .sectionTitulo {
-  Color: #a05824;
+  color: #a05824;
   font-size: 3rem;
 }
 
 .tituloNoticias {
+  width: auto;
+  height: auto;
   margin-top: 1rem;
   padding-left: 1rem;
   padding-top: 0.3rem;
@@ -197,7 +201,6 @@ h1 {
   font-size: 1.5rem;
   background: #a05824;
   color: #f9f7f0;
-  width: auto;
   border-radius: 3rem;
 }
 
@@ -208,7 +211,7 @@ h1 {
 
 .hotelTitulos {
   color: #415d2e;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 2em;
   margin-top: 1em;
   text-align: center;
@@ -216,14 +219,14 @@ h1 {
 
 .mejoresHoteles {
   color: #a05824;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 1.5em;
   margin: 1em;
   padding-bottom: 4rem;
 }
 
 .badgeHoteles {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #a05824;
 }
 
@@ -233,18 +236,18 @@ h1 {
 
 .tituloArticulo {
   color: #415d2e;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 2em;
   margin-top: 2em;
   text-align: center;
 }
 
 .pIguazu {
+  width: 100%;
+  height: auto;
   background-color: #87c7cd;
   border-radius: 1rem;
   color: #000000;
-  width: 100%;
-  height: auto;
   background-position: right;
   background-repeat: no-repeat;
   padding: 2rem;
@@ -267,8 +270,9 @@ iframe {
 }
 
 .inputDeForm {
+  width: 100%;
+  height: auto;
   margin-top: 0.3%;
-  width: 50%;
   -webkit-box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 }
@@ -286,6 +290,7 @@ iframe {
 
 textarea {
   width: 3%;
+  height: auto;
 }
 
 .inputDeForm:focus {
@@ -295,24 +300,21 @@ textarea {
 }
 
 .inputDeForm {
-  margin-top: 0.3%;
   width: 50%;
+  height: auto;
+  margin-top: 0.3%;
   -webkit-box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .formLabel {
   font-size: 1.2rem;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
 }
 
 label {
   color: #a05824;
-  font-family: 'Acme', sans-serif;
-}
-
-textarea {
-  width: 3%;
+  font-family: "Acme", sans-serif;
 }
 
 .carouselSize {
@@ -340,7 +342,7 @@ textarea {
   width: 80%;
   height: auto;
   margin-top: 0.2rem;
-  opacity: .5;
+  opacity: 0.5;
   border: 1px double #415d2e;
   -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
@@ -353,7 +355,7 @@ textarea {
 
 /* barra de scroll============================================== */
 ::-webkit-scrollbar {
-  width: .5rem;
+  width: 0.5rem;
 }
 
 /* Tracker */
@@ -373,8 +375,6 @@ textarea {
   background: #2d4221;
 }
 
-/*============================================*/
-/*desktop*/
 @media only screen and (min-width: 1024px) {
   .elementosMenu {
     margin-left: 3rem;
@@ -410,6 +410,7 @@ textarea {
   }
   .socialLogo {
     width: 3rem;
+    height: auto;
     height: auto;
     margin-left: 0.1rem;
     -webkit-transition: all 1s ease-out;
@@ -447,5 +448,5 @@ textarea {
 
 body {
   background-color: #f9f7f0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
