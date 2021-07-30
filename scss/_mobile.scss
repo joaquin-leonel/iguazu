@@ -1,0 +1,128 @@
+/*mobile ============================================*/
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .logoIguazu{
+        width:10rem;
+        height: auto;
+    }
+
+    .navbarColor{
+        background:$ColorVerdeClaro;
+    }
+
+    .bgImgiguazu{
+        background-attachment: fixed;
+        height:60vh;
+        background-image:url(../img/cataratas-iguazu.png);
+    }
+
+    .textoHeader{
+        font-size:0.8rem;
+        color:$ColorBlanco;
+    }
+
+    h1{
+        padding-top:2rem;
+        font-size:3rem;
+    }
+
+    .claseFooter{
+        background: $ColorVerdeClaro;	
+    }
+
+    .socialLogo{
+        width:3rem;
+        height:auto;
+        margin-left:0.1rem;
+
+    }
+
+    .infoIguazu{
+        margin-top:2rem;
+
+    }
+
+
+    h3{
+        font-weight:normal;
+        font-family: 'Poppins', sans-serif;
+        font-size:1rem;
+        
+    }
+
+    h2{
+        font-weight:normal;
+        font-family: 'Poppins', sans-serif;
+        font-size:1.5rem;
+    }
+
+
+
+    .badgeColor{
+        margin-left:0.5rem;
+        font-size:0.6rem;
+        background:$ColorVerdeClaro;
+    }
+
+    .infoIguazu{
+        padding-top:1rem;
+        text-align: center;
+    }
+
+
+    .carouselSize {
+        width: 100%;
+        height: auto;
+        margin-bottom:1rem;
+    }
+
+
+    .tituloMejores {
+        padding-left:0.5rem;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+    .mejoresHoteles {
+        font-size: 1em;
+    }
+
+    .sectionTitulo{
+        font-size: 2.2rem;
+    }
+
+    .tituloNoticias{
+        font-size: 1.2em;
+    }
+
+    .pIguazu{
+        font-size: 1em;
+    }
+
+    .imgGaleria{
+        opacity:1;
+    }
+
+    iframe{
+        padding:0.2rem;
+        margin-top:1rem;
+        margin-bottom:1rem;
+        width:100%;
+        height:auto;
+    }
+
+    .inputDeForm {
+        width:90%;
+    }
+
+
+    .galeriaFotos {
+        padding:1rem;
+    }
+
+
+}

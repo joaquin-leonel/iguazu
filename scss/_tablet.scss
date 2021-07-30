@@ -1,0 +1,81 @@
+/* breakpoint tablet -------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+
+
+    .logoIguazu{
+        width:20rem;
+        height: auto;
+    }
+
+    .logoIguazu{
+        width:15rem;
+        
+    }
+    .navbarColor{
+        background:$ColorVerdeClaro;
+    }
+
+    .bgImgiguazu{
+        background-attachment: fixed;
+        height:70vh;
+        background-image:url(../img/cataratas-iguazu.png);
+    }
+
+    .textoHeader{
+        color:white;
+    }
+
+    .claseFooter{
+        background: $ColorVerdeClaro;	
+    }
+
+    .socialLogo{
+        width:3rem;
+        height:auto;
+        margin-left:0.1rem;
+
+    }
+
+    .infoIguazu{
+        text-align: center;
+    }
+
+    .caroucelCentrado {
+        display: flex;  
+        align-items: center;  
+        justify-content: center; 
+
+    }
+
+    .lugares{
+        font-size:1.2rem;
+    }
+
+    .badgeColor{
+        margin-left:0.5rem;
+        font-size:1rem;
+        background:$ColorVerdeClaro;
+    }
+
+    .nav-item{
+        transition: border-radius 2s, background 0.5s ease-out;
+
+    }
+
+    .nav-item:hover{
+        border-radius: 1rem;
+        background:$ColorMarron;
+    }
+
+    .carouselSize {
+        width: 50%;
+        height: auto;
+        margin:1rem;
+    }
+
+
+    .inputDeForm {
+        width:50%;
+    }
+
+}

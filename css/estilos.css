@@ -3,18 +3,165 @@
 /*Familias tipograficas*/
 /*font-family: 'Acme', sans-serif;*/
 /*font-family: 'Poppins', sans-serif;*/
+/*mobile ============================================*/
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Poppins&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  list-style-type: none;
+@media only screen and (max-width: 768px) {
+  .logoIguazu {
+    width: 10rem;
+    height: auto;
+  }
+  .navbarColor {
+    background: #415d2e;
+  }
+  .bgImgiguazu {
+    background-attachment: fixed;
+    height: 60vh;
+    background-image: url(../img/cataratas-iguazu.png);
+  }
+  .textoHeader {
+    font-size: 0.8rem;
+    color: #f9f7f0;
+  }
+  h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+  }
+  .claseFooter {
+    background: #415d2e;
+  }
+  .socialLogo {
+    width: 3rem;
+    height: auto;
+    margin-left: 0.1rem;
+  }
+  .infoIguazu {
+    margin-top: 2rem;
+  }
+  h3 {
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+  h2 {
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+  }
+  .badgeColor {
+    margin-left: 0.5rem;
+    font-size: 0.6rem;
+    background: #415d2e;
+  }
+  .infoIguazu {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .carouselSize {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .tituloMejores {
+    padding-left: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .mejoresHoteles {
+    font-size: 1em;
+  }
+  .sectionTitulo {
+    font-size: 2.2rem;
+  }
+  .tituloNoticias {
+    font-size: 1.2em;
+  }
+  .pIguazu {
+    font-size: 1em;
+  }
+  .imgGaleria {
+    opacity: 1;
+  }
+  iframe {
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+  }
+  .inputDeForm {
+    width: 90%;
+  }
+  .galeriaFotos {
+    padding: 1rem;
+  }
 }
 
-body {
-  background-color: #f9f7f0;
-  font-family: 'Poppins', sans-serif;
+/* breakpoint tablet -------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+  .logoIguazu {
+    width: 20rem;
+    height: auto;
+  }
+  .logoIguazu {
+    width: 15rem;
+  }
+  .navbarColor {
+    background: #415d2e;
+  }
+  .bgImgiguazu {
+    background-attachment: fixed;
+    height: 70vh;
+    background-image: url(../img/cataratas-iguazu.png);
+  }
+  .textoHeader {
+    color: white;
+  }
+  .claseFooter {
+    background: #415d2e;
+  }
+  .socialLogo {
+    width: 3rem;
+    height: auto;
+    margin-left: 0.1rem;
+  }
+  .infoIguazu {
+    text-align: center;
+  }
+  .caroucelCentrado {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .lugares {
+    font-size: 1.2rem;
+  }
+  .badgeColor {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    background: #415d2e;
+  }
+  .nav-item {
+    -webkit-transition: border-radius 2s, background 0.5s ease-out;
+    transition: border-radius 2s, background 0.5s ease-out;
+  }
+  .nav-item:hover {
+    border-radius: 1rem;
+    background: #a05824;
+  }
+  .carouselSize {
+    width: 50%;
+    height: auto;
+    margin: 1rem;
+  }
+  .inputDeForm {
+    width: 50%;
+  }
 }
 
 h1 {
@@ -290,162 +437,15 @@ textarea {
   }
 }
 
-/*mobile ============================================*/
-@media only screen and (max-width: 768px) {
-  .logoIguazu {
-    width: 10rem;
-    height: auto;
-  }
-  .navbarColor {
-    background: #415d2e;
-  }
-  .bgImgiguazu {
-    background-attachment: fixed;
-    height: 60vh;
-    background-image: url(../img/cataratas-iguazu.png);
-  }
-  .textoHeader {
-    font-size: 0.8rem;
-    color: #f9f7f0;
-  }
-  h1 {
-    padding-top: 2rem;
-    font-size: 3rem;
-  }
-  .claseFooter {
-    background: #415d2e;
-  }
-  .socialLogo {
-    width: 3rem;
-    height: auto;
-    margin-left: 0.1rem;
-  }
-  .infoIguazu {
-    margin-top: 2rem;
-  }
-  h3 {
-    font-weight: normal;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-  }
-  h2 {
-    font-weight: normal;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-  }
-  .badgeColor {
-    margin-left: 0.5rem;
-    font-size: 0.6rem;
-    background: #415d2e;
-  }
-  .infoIguazu {
-    padding-top: 1rem;
-    text-align: center;
-  }
-  .carouselSize {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-  .tituloMejores {
-    padding-left: 0.5rem;
-    text-align: center;
-    font-size: 1rem;
-  }
-  .mejoresHoteles {
-    font-size: 1em;
-  }
-  .sectionTitulo {
-    font-size: 2.2rem;
-  }
-  .tituloNoticias {
-    font-size: 1.2em;
-  }
-  .pIguazu {
-    font-size: 1em;
-  }
-  .imgGaleria {
-    opacity: 1;
-  }
-  iframe {
-    padding: 0.2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 100%;
-    height: auto;
-  }
-  .inputDeForm {
-    width: 90%;
-  }
-  .galeriaFotos {
-    padding: 1rem;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
 }
 
-/* breakpoint tablet -------------------------------------------------------*/
-@media only screen and (min-width: 768px) {
-  .logoIguazu {
-    width: 20rem;
-    height: auto;
-  }
-  .logoIguazu {
-    width: 15rem;
-  }
-  .navbarColor {
-    background: #415d2e;
-  }
-  .bgImgiguazu {
-    background-attachment: fixed;
-    height: 70vh;
-    background-image: url(../img/cataratas-iguazu.png);
-  }
-  .textoHeader {
-    color: white;
-  }
-  .claseFooter {
-    background: #415d2e;
-  }
-  .socialLogo {
-    width: 3rem;
-    height: auto;
-    margin-left: 0.1rem;
-  }
-  .infoIguazu {
-    text-align: center;
-  }
-  .caroucelCentrado {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .lugares {
-    font-size: 1.2rem;
-  }
-  .badgeColor {
-    margin-left: 0.5rem;
-    font-size: 1rem;
-    background: #415d2e;
-  }
-  .nav-item {
-    -webkit-transition: border-radius 2s, background 0.5s ease-out;
-    transition: border-radius 2s, background 0.5s ease-out;
-  }
-  .nav-item:hover {
-    border-radius: 1rem;
-    background: #a05824;
-  }
-  .carouselSize {
-    width: 50%;
-    height: auto;
-    margin: 1rem;
-  }
-  .inputDeForm {
-    width: 50%;
-  }
+body {
+  background-color: #f9f7f0;
+  font-family: 'Poppins', sans-serif;
 }
