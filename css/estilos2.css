@@ -1,0 +1,542 @@
+
+/*	Paleta
+#f9f7f0 , #415d2e , #d7f1ec , #87c7cd , #2d4221 , #a05824*/
+
+
+/*Familias tipograficas*/
+/*font-family: 'Acme', sans-serif;*/
+/*font-family: 'Poppins', sans-serif;*/
+
+	*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	list-style-type:none;
+	}
+
+
+
+
+	@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins&display=swap');
+
+
+
+	body{
+	background-color: #f9f7f0;
+	/*margin: 20px;	*/
+	font-family: 'Poppins', sans-serif;
+	}
+	
+
+
+	h1{
+		color:#ffffff;
+		font-size: 4rem;
+		font-family: 'Acme', sans-serif;
+		padding-top: 8rem;
+		margin-left:1rem;
+	}
+
+
+	.tituloMejores {
+		margin-top:1rem;
+		padding-left: 1rem;
+		padding-top:0.3rem;
+		padding-bottom:0.3rem;
+		font-size: 1.5rem;
+		background: #415d2e;
+		color: white;
+		width: auto;
+		border-radius: 3rem;
+	}
+
+
+	.sectionTitulo{
+		Color:#a05824;
+		font-size:3rem;
+	}
+
+	.tituloNoticias{
+		margin-top:1rem;
+		padding-left: 1rem;
+		padding-top:0.3rem;
+		padding-bottom:0.3rem;
+		font-size: 1.5rem;
+		background: #a05824;
+		color: white;
+		width: auto;
+		border-radius: 3rem;	
+	}
+
+
+	.ArtHoteleria{
+		margin-top:2rem;
+		margin-bottom:2rem;
+	}
+
+	.hotelTitulos {
+		color: #415d2e;
+		font-family: 'Acme', sans-serif;
+		font-size: 2em;
+		margin-top: 1em;
+		text-align: center;
+	}
+
+	.mejoresHoteles {
+		color: #a05824;
+		font-family: 'Acme', sans-serif;
+		font-size: 1.5em;
+		margin: 1em;
+		padding-bottom:4rem;
+
+	}
+
+	.badgeHoteles{
+		font-family: 'Poppins', sans-serif;
+		background: #a05824;
+	}
+
+	.fas{
+		color:#415d2e;
+	}
+
+
+	.tituloArticulo {
+		color: #415d2e;
+		font-family: 'Acme', sans-serif;
+		font-size: 2em;
+		margin-top: 2em;
+		text-align: center;
+	}
+
+	.pIguazu {
+		background-color: #87c7cd;
+		border-radius: 1rem;
+		color: #000000;
+		width: 100%;
+		height: auto;
+		background-position: right;
+		background-repeat: no-repeat;
+		padding: 2rem;
+		font-size: 1em;
+		background-image: url(../img/logo-cataratas-br.png);
+		background-size: 100%;
+		margin-bottom:3rem;
+		box-shadow: 0.3rem 0.6rem rgba(65, 93, 46,0.7);
+
+	}
+
+	iframe{
+		width:100%;
+		height: 40rem;
+		padding:4rem;
+	}
+
+
+
+	.contactoTitulo{
+		margin-left:1rem;
+	}
+
+	.inputDeForm{
+		margin-top:0.3%;
+		width:50%;
+		box-shadow: 2px 2px rgba(0,0,0,0.3);
+	}
+
+	
+
+	.btnEnviar{
+		border-color:#a05824;
+		color:#FFFFFF;
+		background:#a05824;
+	}
+
+	.btnEnviar:hover{
+		border-color:#a05824;
+		background:#415d2e;
+	}
+
+	textarea{
+		width:3%;
+	}
+
+
+	.inputDeForm:focus {
+		border-color: #415d2e;
+		box-shadow: inset 0 1px 1px rgba(0, 93, 0, 0.8), 0 0 8px rgba(65, 93, 46, 0.8);
+	}
+
+
+	.inputDeForm{
+		margin-top:0.3%;
+		width:50%;
+		box-shadow: 2px 2px rgba(0,0,0,0.3);
+	}
+
+	.formLabel{
+
+		font-size:1.2rem;
+		font-family: 'Acme', sans-serif;
+	}
+
+	label{
+		color:#a05824;
+		font-family: 'Acme', sans-serif;
+	}
+
+	textarea{
+		width:3%;
+	}
+
+
+	.carouselSize{
+		width:50%;
+		height:auto;
+	}
+
+
+
+	/*galeria============================================*/
+
+	.galeriaFotos{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding-top:4rem;
+	}
+
+	.imgGaleria{
+		width:80%;
+		height: auto;
+		margin-top:0.2rem;
+		opacity:.5;
+		border:1px double #415d2e;
+		transition: all 1s ease-in;
+
+	}
+	.imgGaleria:hover{
+		opacity:1;
+		border:1px double #415d2e;
+
+	}
+/* barra de scroll============================================== */
+
+::-webkit-scrollbar {
+	width:.5rem;
+  }
+  
+  /* Tracker */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 1 0 3px #415d2e; 
+	background: #87c7cd; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #415d2e; 
+  }
+  
+  /* Handle hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #73a552; 
+  }
+
+
+
+
+	/*============================================*/
+
+
+	/*desktop*/
+
+	@media only screen and (min-width: 1024px) {
+
+		.elementosMenu{
+			margin-left:3rem;
+
+		}
+
+
+		.logoIguazu{
+			width:10rem;
+			height: auto;
+		}
+
+		.navbarColor{
+			background:#415d2e;
+		}
+
+
+		.bgImgiguazu{
+
+			height:70vh;
+			background-attachment: fixed;
+			background-image:url(../img/cataratas-iguazu.png);
+		}
+
+		.textoHeader{
+			color:white;
+		}
+
+		.caroucelCentrado{
+			display: flex;  
+			align-items: center;  
+			justify-content: center; 
+		}
+
+		.claseFooter{
+			background: #415d2e;	
+		}
+
+		.socialLogo{
+			width:3rem;
+			height:auto;
+			margin-left:0.1rem;
+			transition: all 1s ease-out;
+		}
+
+		.socialLogo:hover {
+			filter: invert(30%);
+		}
+
+
+		.lugares{
+			font-size:1.2rem;
+		}
+
+		.badgeColor{
+			margin-left:0.5rem;
+			font-size:1rem;
+			background:#415d2e;
+		}
+
+
+		.itemMenu{
+			transition: border-radius 2s, background 0.5s ease-out;
+			
+		}
+
+		.itemMenu:hover{
+			border-radius: 1rem;
+			background:#a05824;
+		}
+
+
+
+	}
+
+
+	/*mobile ============================================*/
+
+	@media only screen and (max-width: 768px) {
+
+
+
+		.logoIguazu{
+			width:10rem;
+			height: auto;
+		}
+
+		.navbarColor{
+			background:#415d2e;
+		}
+
+		.bgImgiguazu{
+			background-attachment: fixed;
+			height:60vh;
+			background-image:url(../img/cataratas-iguazu.png);
+		}
+
+		.textoHeader{
+			font-size:0.8rem;
+			color:white;
+		}
+
+		h1{
+			padding-top:2rem;
+			font-size:3rem;
+		}
+
+		.claseFooter{
+			background: #415d2e;	
+		}
+
+		.socialLogo{
+			width:3rem;
+			height:auto;
+			margin-left:0.1rem;
+
+		}
+
+		.infoIguazu{
+			margin-top:2rem;
+
+		}
+
+
+		h3{
+			font-weight:normal;
+			font-family: 'Poppins', sans-serif;
+			font-size:1rem;
+			background:;
+		}
+
+		h2{
+			font-weight:normal;
+			font-family: 'Poppins', sans-serif;
+			font-size:1.5rem;
+		}
+
+
+
+		.badgeColor{
+			margin-left:0.5rem;
+			font-size:0.6rem;
+			background:#415d2e;
+		}
+
+		.infoIguazu{
+			padding-top:1rem;
+			text-align: center;
+		}
+
+
+		.carouselSize {
+			width: 100%;
+			height: auto;
+			margin-bottom:1rem;
+		}
+
+
+		.tituloMejores {
+			padding-left:0.5rem;
+			text-align: center;
+			font-size: 1rem;
+
+		}
+
+		.mejoresHoteles {
+			font-size: 1em;
+		}
+
+		.sectionTitulo{
+			font-size: 2.2rem;
+		}
+
+		.tituloNoticias{
+			font-size: 1.2em;
+		}
+
+		.pIguazu{
+			font-size: 1em;
+		}
+
+		.imgGaleria{
+			opacity:1;
+		}
+
+		iframe{
+			padding:0.2rem;
+			margin-top:1rem;
+			margin-bottom:1rem;
+			width:100%;
+			height:auto;
+		}
+
+		.inputDeForm {
+			width:90%;
+		}
+
+
+		.galeriaFotos {
+			padding:1rem;
+		}
+
+
+	}
+
+
+
+	/* breakpoint tablet -------------------------------------------------------*/
+	@media only screen and (min-width: 768px) {
+
+
+		.logoIguazu{
+			width:20rem;
+			height: auto;
+		}
+
+		.logoIguazu{
+			width:15rem;
+			
+		}
+		.navbarColor{
+			background:#415d2e;
+		}
+
+		.bgImgiguazu{
+			background-attachment: fixed;
+			height:70vh;
+			background-image:url(../img/cataratas-iguazu.png);
+		}
+
+		.textoHeader{
+			color:white;
+		}
+
+		.claseFooter{
+			background: #415d2e;	
+		}
+
+		.socialLogo{
+			width:3rem;
+			height:auto;
+			margin-left:0.1rem;
+
+		}
+
+		.infoIguazu{
+			text-align: center;
+		}
+
+		.caroucelCentrado {
+			display: flex;  
+			align-items: center;  
+			justify-content: center; 
+
+		}
+
+		.lugares{
+			font-size:1.2rem;
+		}
+
+		.badgeColor{
+			margin-left:0.5rem;
+			font-size:1rem;
+			background:#415d2e;
+		}
+
+		.nav-item{
+			transition: border-radius 2s, background 0.5s ease-out;
+
+		}
+
+		.nav-item:hover{
+			border-radius: 1rem;
+			background:#a05824;
+		}
+
+		.carouselSize {
+			width: 50%;
+			height: auto;
+			margin:1rem;
+		}
+
+
+		.inputDeForm {
+			width:50%;
+		}
+
+	}
