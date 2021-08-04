@@ -184,10 +184,6 @@ label {
     border: 1px double $ColorVerdeClaro;
   }
 }
-// .imgGaleria:hover {
-//   opacity: 1;
-//   border: 1px double $ColorVerdeClaro;
-// }
 
 /* barra de scroll============================================== */
 
@@ -228,11 +224,10 @@ label {
   }
 
   .bgImgiguazu {
-    background-repeat:no repeat;
-  background-size: cover;
     height: 70vh;
-    background-attachment: fixed;
     background-image: url(../img/cataratas-iguazu.png);
+    background-size:cover;
+    background-repeat:no-repeat;
   }
 
   .textoHeader {

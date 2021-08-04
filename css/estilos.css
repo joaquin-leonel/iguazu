@@ -225,8 +225,9 @@ label {
   }
   .bgImgiguazu {
     height: 70vh;
-    background-attachment: fixed;
     background-image: url(../img/cataratas-iguazu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .textoHeader {
     color: #f9f7f0;
@@ -292,6 +293,8 @@ label {
     background-attachment: fixed;
     height: 70vh;
     background-image: url(../img/cataratas-iguazu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .textoHeader {
     color: #f9f7f0;
@@ -361,6 +364,8 @@ label {
     background-attachment: fixed;
     height: 60vh;
     background-image: url(../img/cataratas-iguazu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .textoHeader {
     font-size: 0.8rem;
