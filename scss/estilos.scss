@@ -11,12 +11,12 @@ $ColorVerdeOscuro: #2d4221;
 $ColorMarron: #a05824;
 // ==============================================
 
-
 @mixin size($width, $height) {
   width: $width;
   height: $height;
 }
 
+@import "general";
 @import "desktop";
 @import "tablet";
 @import "mobile";
@@ -36,4 +36,3 @@ body {
   background-color: $ColorBlanco;
   font-family: "Poppins", sans-serif;
 }
-

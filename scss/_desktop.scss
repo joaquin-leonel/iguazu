@@ -1,198 +1,5 @@
 // desktop=====================================
 
-h1 {
-  color: $ColorBlanco;
-  font-size: 4rem;
-  font-family: "Acme", sans-serif;
-  padding-top: 8rem;
-  margin-left: 1rem;
-}
-
-.tituloMejores {
-  @include size(auto, auto);
-  margin-top: 1rem;
-  padding-left: 1rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  font-size: 1.5rem;
-  background: $ColorVerdeClaro;
-  color: $ColorBlanco;
-  border-radius: 3rem;
-}
-
-.sectionTitulo {
-  color: $ColorMarron;
-  font-size: 3rem;
-}
-
-.tituloNoticias {
-  @include size(auto, auto);
-  margin-top: 1rem;
-  padding-left: 1rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  font-size: 1.5rem;
-  background: $ColorMarron;
-  color: $ColorBlanco;
-  border-radius: 3rem;
-}
-
-.ArtHoteleria {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.hotelTitulos {
-  color: $ColorVerdeClaro;
-  font-family: "Acme", sans-serif;
-  font-size: 2em;
-  margin-top: 1em;
-  text-align: center;
-}
-
-.mejoresHoteles {
-  color: $ColorMarron;
-  font-family: "Acme", sans-serif;
-  font-size: 1.5em;
-  margin: 1em;
-  padding-bottom: 4rem;
-}
-
-.badgeHoteles {
-  font-family: "Poppins", sans-serif;
-  background: $ColorMarron;
-}
-
-.fas {
-  color: $ColorVerdeClaro;
-}
-
-.tituloArticulo {
-  color: $ColorVerdeClaro;
-  font-family: "Acme", sans-serif;
-  font-size: 2em;
-  margin-top: 2em;
-  text-align: center;
-}
-
-.pIguazu {
-  @include size(100%, auto);
-  background-color: $ColorCeleste;
-  border-radius: 1rem;
-  color: #000000;
-  background-position: right;
-  background-repeat: no-repeat;
-  padding: 2rem;
-  font-size: 1em;
-  background-image: url(../img/logo-cataratas-br.png);
-  background-size: 100%;
-  margin-bottom: 3rem;
-  box-shadow: 0.3rem 0.6rem rgba(65, 93, 46, 0.7);
-}
-
-iframe {
-  @include size(100%, 40rem);
-  padding: 4rem;
-}
-
-.contactoTitulo {
-  margin-left: 1rem;
-}
-
-.inputDeForm {
-  @include size(100%, auto);
-  margin-top: 0.3%;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
-}
-
-.btnEnviar {
-  border-color: $ColorMarron;
-  color: $ColorBlanco;
-  background: $ColorMarron;
-}
-
-.btnEnviar:hover {
-  border-color: $ColorMarron;
-  background: $ColorVerdeClaro;
-}
-
-textarea {
-  @include size(3%, auto);
-}
-
-.inputDeForm:focus {
-  border-color: $ColorVerdeClaro;
-  box-shadow: inset 0 1px 1px rgba(0, 93, 0, 0.8), 0 0 8px rgba(65, 93, 46, 0.8);
-}
-
-.inputDeForm {
-  @include size(50%, auto);
-  margin-top: 0.3%;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
-}
-
-.formLabel {
-  font-size: 1.2rem;
-  font-family: "Acme", sans-serif;
-}
-
-label {
-  color: $ColorMarron;
-  font-family: "Acme", sans-serif;
-}
-
-
-.carouselSize {
-  @include size(50%, auto);
-}
-
-/*galeria============================================*/
-
-.galeriaFotos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-top: 4rem;
-}
-
-.imgGaleria {
-  @include size(80%, auto);
-  margin-top: 0.2rem;
-  opacity: 0.5;
-  border: 1px double $ColorVerdeClaro;
-  transition: all 1s ease-in;
-
-  &:hover {
-    opacity: 1;
-    border: 1px double $ColorVerdeClaro;
-  }
-}
-
-/* barra de scroll============================================== */
-
-::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 1 0 3px $ColorVerdeClaro;
-  background: #87c7cd;
-}
-
-
-::-webkit-scrollbar-thumb {
-  background: $ColorVerdeClaro;
-}
-
-
-::-webkit-scrollbar-thumb:hover {
-  background: $ColorVerdeOscuro;
- 
-}
-/* ============================================================ */
-
 @media only screen and (min-width: 1024px) {
   .elementosMenu {
     margin-left: 3rem;
@@ -200,7 +7,7 @@ label {
 
   .logoIguazu {
     @include size(10rem, auto);
-   }
+  }
 
   .navbarColor {
     background: $ColorVerdeClaro;
@@ -210,8 +17,8 @@ label {
     background-attachment: fixed;
     height: 70vh;
     background-image: url(../img/cataratas-iguazu.png);
-    background-size:cover;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .textoHeader {
@@ -256,5 +63,4 @@ label {
       background: $ColorMarron;
     }
   }
-
 }

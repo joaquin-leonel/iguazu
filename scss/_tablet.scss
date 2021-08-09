@@ -2,11 +2,11 @@
 @media only screen and (min-width: 768px) {
   .logoIguazu {
     @include size(20rem, auto);
-    }
+  }
 
   .logoIguazu {
     @include size(15rem, auto);
-   }
+  }
 
   .navbarColor {
     background: $ColorVerdeClaro;
@@ -17,8 +17,7 @@
     height: 70vh;
     background-image: url(../img/cataratas-iguazu.png);
     background-size: cover;
-    background-repeat:no-repeat;
-    
+    background-repeat: no-repeat;
   }
 
   .textoHeader {

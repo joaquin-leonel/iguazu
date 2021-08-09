@@ -195,19 +195,16 @@ label {
   width: 0.5rem;
 }
 
-/* Tracker */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 1 0 3px #415d2e;
           box-shadow: inset 1 0 3px #415d2e;
   background: #87c7cd;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #415d2e;
 }
 
-/* Handle hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #2d4221;
 }
@@ -224,6 +221,7 @@ label {
     background: #415d2e;
   }
   .bgImgiguazu {
+    background-attachment: fixed;
     height: 70vh;
     background-image: url(../img/cataratas-iguazu.png);
     background-size: cover;
