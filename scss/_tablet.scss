@@ -2,14 +2,12 @@
 @media only screen and (min-width: 768px) {
   .logoIguazu {
     @include size(20rem, auto);
-    // width:20rem;
-    // height: auto;
-  }
+    }
 
   .logoIguazu {
     @include size(15rem, auto);
-    // width:15rem;
-  }
+   }
+
   .navbarColor {
     background: $ColorVerdeClaro;
   }
@@ -33,8 +31,6 @@
 
   .socialLogo {
     @include size(3rem, auto);
-    // width:3rem;
-    // height:auto;
     margin-left: 0.1rem;
   }
 
@@ -66,20 +62,12 @@
     }
   }
 
-  //   .nav-item:hover {
-  //     border-radius: 1rem;
-  //     background: $ColorMarron;
-  //   }
-
   .carouselSize {
     @include size(50%, auto);
-    // width: 50%;
-    // height: auto;
     margin: 1rem;
   }
 
   .inputDeForm {
     @include size(50%, auto);
-    // width:50%;
   }
 }

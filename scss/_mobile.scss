@@ -7,9 +7,7 @@
 
   .logoIguazu {
     @include size(10rem, auto);
-    // width:10rem;
-    // height: auto;
-  }
+    }
 
   .navbarColor {
     background: $ColorVerdeClaro;
@@ -39,8 +37,6 @@
 
   .socialLogo {
     @include size(3rem, auto);
-    // width:3rem;
-    // height:auto;
     margin-left: 0.1rem;
   }
 
@@ -109,13 +105,10 @@
     padding: 0.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    // width:100%;
-    // height:auto;
   }
 
   .inputDeForm {
     @include size(90%, auto);
-    // width:90%;
   }
 
   .galeriaFotos {

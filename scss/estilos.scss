@@ -2,13 +2,15 @@
 /*font-family: 'Acme', sans-serif;*/
 /*font-family: 'Poppins', sans-serif;*/
 
-// Paleta
+// Paleta========================================
 $ColorBlanco: #f9f7f0;
 $ColorBlancoDos: #d7f1ec;
 $ColorCeleste: #87c7cd;
 $ColorVerdeClaro: #415d2e;
 $ColorVerdeOscuro: #2d4221;
 $ColorMarron: #a05824;
+// ==============================================
+
 
 @mixin size($width, $height) {
   width: $width;
@@ -19,13 +21,14 @@ $ColorMarron: #a05824;
 @import "tablet";
 @import "mobile";
 
-// Reset
+// Reset ========================================
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
 }
+// =================================================
 
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Poppins&display=swap");
 
